@@ -1,10 +1,15 @@
 import React from "react"
 import { Link } from "gatsby"
+import Layout from "../components/layout"
 
 export default () => 
-    <div style={{ color: `gray` }}>
+    <Layout>
+        <Link to="/info/">Info</Link>
+        <Link to="/about/">About</Link>
+        <Link to="/about-css-modules/">CSS Modules</Link>
         <Link to="/contact/">Contact</Link>
         <h2>Noice!</h2>
-        <p>lol</p>
-    </div>
+        <p>loloololololololololololoololol</p>
+        <p>pork chops yoloooooooo</p>
+    </Layout>
 

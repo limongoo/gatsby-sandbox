@@ -1,5 +1,6 @@
 import React from "react"
 import styles from "./about-css-modules.module.css"
+import { Link } from "gatsby"
 
 import Container from "../components/container"
 
@@ -17,6 +18,11 @@ const User = props => (
 )
 export default () => (
   <Container>
+    <Link to="/">Home</Link>
+    <Link to="/info/">Info</Link>
+    <Link to="/about/">About</Link>
+    <Link to="/about-css-modules/">CSS Modules</Link>
+    <Link to="/contact/">Contact</Link>
     <h1>About CSS Modules</h1>
     <p>CSS Modules are cool</p>
     <User      
